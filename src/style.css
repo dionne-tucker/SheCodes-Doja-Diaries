@@ -1,0 +1,28 @@
+/* font-family: 'Righteous', cursive;
+font-family: 'Russo One', sans-serif; */
+
+body {
+  background-color: rgb(238, 235, 230);
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-wrapper {
+  padding: 10px 80px;
+}
+
+.nav-logo {
+  font-size: 52px;
+}
+
+.nav-link {
+  margin-left: 20px;
+  transition: all ease 200ms;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.active {
+  font-weight: 600;
+}
