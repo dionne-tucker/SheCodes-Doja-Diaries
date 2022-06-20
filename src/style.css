@@ -7,11 +7,16 @@ body {
 }
 
 .main-wrapper {
-  padding: 10px 80px;
+  padding: 10px 5%;
 }
 
 .nav-logo {
   font-size: 52px;
+  transition: transform 250ms;
+}
+
+.nav-logo:hover {
+  transform: rotate(-15deg);
 }
 
 .nav-link {
@@ -25,4 +30,8 @@ body {
 
 .active {
   font-weight: 600;
+}
+
+.navbar-toggler {
+  border: none;
 }
