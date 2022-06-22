@@ -35,3 +35,37 @@ body {
 .navbar-toggler {
   border: none;
 }
+
+.hero {
+  padding: 50px 0;
+  max-width: 950px;
+}
+
+.hero h3 {
+  font-size: 3rem;
+}
+
+.hero h1 {
+  font-family: "Righteous", cursive;
+  font-size: 8rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.testimonials {
+margin: 50px auto;
+}
+
+.testimonials p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.grid-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
