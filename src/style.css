@@ -53,19 +53,67 @@ body {
 
 .hero p {
   font-size: 1.5rem;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .testimonials {
-margin: 50px auto;
+  margin: 50px auto;
 }
 
 .testimonials p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 500;
 }
 
 .grid-wrapper {
   max-width: 1100px;
   margin: 0 auto;
+}
+
+.column {
+  position: relative;
+}
+
+.quote {
+  color: #fb3871;
+  font-size: 3rem;
+  position: relative;
+}
+
+.fa-quote-left {
+  transform: rotate(-15deg);
+  right: 50px;
+}
+
+.fa-quote-right {
+  transform: rotate(15deg);
+  left: 485px;
+  bottom: 20px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.content h3 {
+  margin-right: 15px;
+}
+
+.content .arrow {
+  font-size: 22px;
+  position: relative;
+  bottom: 4px;
+}
+
+footer {
+  border-top: solid 1px black;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+@media (max-width: 950) {
+  .row {
+    display: block;
+  }
 }
