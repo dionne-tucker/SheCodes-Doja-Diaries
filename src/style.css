@@ -38,7 +38,7 @@ body {
 
 .hero {
   padding: 50px 0;
-  max-width: 950px;
+  max-width: 1000px;
 }
 
 .hero h3 {
@@ -60,9 +60,14 @@ body {
   margin: 50px auto;
 }
 
+.testimonials .row {
+  margin-bottom: 60px;
+}
+
 .testimonials p {
   font-size: 1.3rem;
   font-weight: 500;
+  z-index: 1;
 }
 
 .grid-wrapper {
@@ -75,35 +80,53 @@ body {
 }
 
 .quote {
-  color: #fb3871;
-  font-size: 3rem;
-  position: relative;
+  color: rgb(251, 56, 113, 0.3);
+  font-size: 7rem;
+  position: absolute;
+  z-index: -1;
+  top: -50px;
+  left: -15px;
+  rotate: 15deg;
 }
 
-.fa-quote-left {
-  transform: rotate(-15deg);
-  right: 50px;
-}
-
-.fa-quote-right {
-  transform: rotate(15deg);
-  left: 485px;
-  bottom: 20px;
-}
-
-.content {
+.cuddle {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  margin: 100px 0;
 }
 
-.content h3 {
+.cuddle h3 {
+  font-size: 2.5rem;
   margin-right: 15px;
 }
 
-.content .arrow {
-  font-size: 22px;
-  position: relative;
-  bottom: 4px;
+.cuddle .arrow {
+  font-size: 2.5rem;
+}
+
+.services {
+  max-width: 1000px;
+  margin: 100px auto;
+}
+
+.services .row {
+  margin-bottom: 60px;
+}
+
+.services h4 {
+  font-weight: 600;
+}
+
+.services p {
+  font-size: 20px;
+}
+
+.services-img {
+  max-width: 400px;
+  height: 400px;
+  border: solid 3px black;
+  box-shadow: 3px 3px 0 black;
+  border-radius: 50%;
 }
 
 footer {
