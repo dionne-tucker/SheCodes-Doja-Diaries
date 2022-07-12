@@ -129,6 +129,14 @@ body {
   border-radius: 50%;
 }
 
+.team {
+  margin: 60px auto;
+}
+
+.team .column {
+  border: solid 3px black;
+}
+
 footer {
   border-top: solid 1px black;
   font-size: 14px;
