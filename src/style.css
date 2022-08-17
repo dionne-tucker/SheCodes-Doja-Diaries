@@ -2,7 +2,7 @@
 font-family: 'Russo One', sans-serif; */
 
 body {
-  background-color: rgb(238, 235, 230);
+  background-color: #eeebe6;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -21,6 +21,7 @@ body {
 
 .nav-link {
   margin-left: 20px;
+  font-size: 20px;
   transition: all ease 200ms;
 }
 
@@ -135,6 +136,26 @@ body {
 
 .team .column {
   border: solid 3px black;
+}
+
+.btn {
+  max-width: 400px;
+  border: 2px solid black;
+  box-shadow: 3px 3px 0 black;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 25px;
+  margin: 8vh auto 20vh auto;
+  background-color: transparent;
+  transition: all 100ms ease;
+}
+
+.btn:hover {
+  background-color: #FB3871;
+  color: white;
+  border: 2px solid black;
+  box-shadow: none;
+  transform: translate(3px,3px);
 }
 
 footer {
